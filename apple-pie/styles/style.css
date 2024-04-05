@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.figure {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        }
+
+    .banner{
+        max-width: 800px;
+    }
+    .text-title {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+
+
+.article {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 25px;
+
+    .text-introduction {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .recipe {
+        display: flex;
+        min-width: 300px;
+        max-width: 400px;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        border-bottom: solid 1px black;
+        padding-bottom: 25px;
+    }
+
+    .cooking {
+        display: flex;
+        min-width: 300px;
+        max-width: 400px;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        border-bottom: solid 1px black;
+        padding-bottom: 25px;
+    }
+
+    .article-title {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding-top: 25px;
+    }
+
+    .text-recipe {
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .text-cooking {
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        font-size: 18px;
+        
+    }
+}
